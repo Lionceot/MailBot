@@ -1,15 +1,8 @@
-import discord
-from discord import Embed, Color, TextChannel, Message, ApplicationContext, option, Role, User, Status, \
-    AutocompleteContext, OptionChoice, Guild, DMChannel
-from discord.ext import commands, tasks
+from discord import Embed, Color, Message, ApplicationContext, option, DMChannel
+from discord.ext import commands
 from discord.commands import SlashCommandGroup
-from discord.ui import InputText, Modal, View
-from discord.ext.commands.errors import GuildNotFound
 
 from json import load as json_load, dump as json_dump
-from typing import Union
-from random import randint
-from datetime import datetime, date
 
 from customs import MyBot, config_key_autocomplete, time_now
 

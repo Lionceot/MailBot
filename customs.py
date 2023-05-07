@@ -1,7 +1,6 @@
 import discord
-from discord import Embed, Color, Member, Intents, Activity, ActivityType, ApplicationContext, DiscordException, \
-    Guild, AutocompleteContext
-from discord.ext import commands, tasks
+from discord import Embed, Color, Intents, Activity, ApplicationContext, Guild, AutocompleteContext
+from discord.ext import commands
 from discord.errors import Forbidden
 from discord.ext.commands import errors, Context
 
@@ -9,8 +8,7 @@ from pytz import timezone
 from datetime import datetime
 
 import logging
-from dotenv import load_dotenv
-from os import listdir, getenv
+from os import listdir
 from json import load as json_load
 
 
